@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <section>
+
+    <header>
+      <div id="balance">
+        <span class="myBalance">My balance</span>
+        <span class="amount">$921.48</span>
+      </div>
+
+      <div id="logo">
+        <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+      </div>
+    </header>
+
+    <main>
+      <div id="headerMain">
+        <h1>Spending - Last 7 days</h1>
+      </div>
+      <div id="chartBalance">
+        <div class="dayBalance" id="Monday">
+          <!-- <span class="dayBalanceAmountMon"></span> -->
+          <div id="mon"></div>
+          <span>mon</span>
+        </div>
+        <div class="dayBalance" id="Tuesday">
+          <!-- <span class="dayBalanceAmountTue"></span> -->
+          <div id="tue"></div>
+          <span>tue</span>
+        </div>
+        <div class="dayBalance" id="Wenday">
+          <!-- <span class="dayBalanceAmount"></span> -->
+          <div id="wed"></div>
+          <span>wed</span>
+        </div>
+        <div class="dayBalance" id="Thursday">
+          <!-- <span class="dayBalanceAmountThu"></span> -->
+          <div id="thu"></div>
+          <span>thu</span>
+        </div>
+        <div class="dayBalance" id="Friday">
+          <!-- <span class="dayBalanceAmountFri"></span> -->
+          <div id="fri"></div>
+          <span>fri</span>
+        </div>
+        <div class="dayBalance" id="Satrday">
+          <!-- <span class="dayBalanceAmountSat"></span> -->
+          <div id="sat"></div>
+          <span>sat</span>
+        </div>
+        <div class="dayBalance" id="Sunday">
+          <!-- <span class="dayBalanceAmountSun"></span> -->
+          <div id="sun"></div>
+          <span>sun</span>
+        </div>
+      </div>
+      <hr>
+      <div id="totalBalance">
+        <div id="balancePerMonth">
+          <span class="myBalance">Total this month</span>
+          <span class="amount">$478.33</span>
+        </div>
+        <div id="balancePercent">
+          <span class="amount">+2.4%</span>
+          <span class="myBalance">from last month</span>
+        </div>
+      </div>
+    </main>
+    
+  
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      <span>Dusan Djergovic</span>
+      <div id="socials">
+        <a href="https://github.com/dusandjergovic" target="_blank">
+          <img src="images/github.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/du%C5%A1an-%C4%91ergovi%C4%87-aaa2a4259/" target="_blank">
+          <img src="images/linkedin.png" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
